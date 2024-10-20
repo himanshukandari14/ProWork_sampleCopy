@@ -1,0 +1,255 @@
+#Category{
+    width: 100vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.CategoryBlock{
+    width: 90%;
+    height: 90vh;
+    margin-left: -4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px rgb(53, 210, 165) solid;
+}
+.CategoryBlock-h1{
+    height: 8vh;
+    width: 45%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.CategoryBlock-h1h1{
+    text-decoration: underline;
+    background-image: linear-gradient(0deg, #ccf9f1 0.5%,  #ffffff 109%);
+    display: inline;
+    font-size: 1.9rem;
+}
+.CategoryBlock-img-div{
+    height: 55%;
+    width: 38%;
+    display: flex;
+    justify-content: start;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+    /* border: 2px solid red; */
+}
+.CategoryBlock-img-div-inner{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #49a392;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CategoryBlock-img{
+    height: 15rem;
+}
+
+.service_final{
+    height: 75%;
+    width:57%;
+    margin-top: -15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chooseTile{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+.service_final_block{
+    width: 100%;
+}
+.service_table{
+    margin-left: 2.5rem;
+    width: 93%;
+    margin-top: 2rem;
+}
+table, th, td{
+    border:1px solid #49a392;
+}
+th{
+    padding: 0.5rem 2.5rem;
+}
+.Service{
+    padding: 0.5rem 8rem;
+}
+.price_Range{ 
+    padding: 1rem 2rem;
+}
+.radioC{
+    margin-left: 3rem;
+}
+.table_data{
+    padding:  0.5rem;
+}
+.price_Range_data{
+    padding-left: 0.5rem;
+}
+
+.bookService{
+    position: absolute;
+    right: 16rem;
+    bottom: 1.5rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    padding: 0.7rem  0.5rem;
+    border: 2px rgb(255, 255, 255) solid;
+    color: white;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    background-color:rgb(24, 142, 109);
+}
+.bookService:active{
+    box-shadow: 0 0 0px rgb(53, 210, 165);
+}
+.total-random-price{
+    position: absolute;
+    right: 8rem;
+    bottom: 7rem;
+    height: 3rem;
+    width: 27rem;
+}
+.category-space{
+    margin-top: 0.5rem;
+}
+.movefun{
+    position: absolute;
+    right: 1.9rem;
+    bottom: 8.3rem;
+}
+.movefun1{
+    position: absolute;
+    right: 10.3rem;
+    bottom: 3.1rem;
+}
+.final-amount{
+    padding: 0.5rem 1rem;
+    padding-right: 10.5rem;
+}
+.final-amount-price{
+    padding: 0.5rem 1.5rem;
+}
+.profile-label-category{
+    margin-right: 1.5rem;
+}
+.BookNowDiv{
+    border: 2px rgb(53, 210, 165) solid;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-right: 15rem; */
+    z-index: 100;
+    background-color: white;
+    border-radius: 1.5rem;
+    height: 85%;
+    width: 45%;
+    overflow: hidden;
+    /* background-image: url('../../assets/greenwave.jpg'); */
+}
+.closeUserNav{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    cursor: pointer;
+    height: 1rem;
+    z-index: 2001 !important;
+    cursor: pointer;
+}
+.userAccountEdit-category{
+    position: relative;
+    bottom: 2rem;
+    left: 12rem;
+}
+.bookService-next{
+    margin-bottom: -0.6rem;
+    margin-right: -12.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.aarrow-doleft{
+    position: relative;
+    top: 1px;
+    rotate: 270deg !important;
+}
+
+.bookService-nextt{
+    position: relative;
+    left: 12rem;
+    top: -3.8rem;
+    color: rgb(5, 186, 135);
+}
+.BookNowNext{
+    width: 40% !important;
+}
+.aarrow-doleft{
+    position: relative;
+    top: 1px;
+    rotate: 270deg !important;
+}
+.finalBookHeading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 18%;
+}
+.finalbookdes{
+    display: flex;
+    /* border: 2px solid rgb(222, 180, 14); */
+    width: 100%;
+    padding-left: 0.5rem;
+}
+.includeonly{
+    display: flex;
+    /* border: 2px solid rgb(222, 180, 14); */
+    justify-content: start;
+    align-items: center;
+    padding-left: 1.5rem;
+    width: 100%;
+    height: 15%;
+    /* margin-bottom: 1rem; */
+}
+.CategoryBlockSummary{
+    position: relative;
+    height: 85%;
+    width: 100%;
+    left: 2.5rem;
+    /* bottom: 3rem; */
+}
+.wiallsum{
+    width: 95%;
+    /* border: 2px solid rgb(128, 0, 255); */
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wiallsumlasts{
+    border-bottom: 1.5px solid black;
+    /* margin-bottom: 0.5rem; */
+}
+
+.allSumary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    padding: 0rem 1rem;
+}
+.final-book{
+    margin-top: 1rem;
+}
+
+.CategoryBlockx{
+    margin-left: -4rem;
+}

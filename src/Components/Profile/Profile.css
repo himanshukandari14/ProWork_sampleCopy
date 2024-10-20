@@ -1,0 +1,162 @@
+#Profile{
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+    overflow: hidden;    
+}
+.profile-block{
+    position: absolute;
+    z-index: 100;
+}
+.profile-tagName{
+    font-size: 3rem;
+    padding-left: 1rem;
+    margin-top: 5rem;
+}
+.guest_user{
+    font-size:1.3rem ;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+}
+.profile-tagnum-email{
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+.logmeout{
+    position: absolute;
+    right: 3rem;
+    top: 6.4rem;
+    height: 2.5rem;
+    width: 9rem;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    background-color: rgb(236, 35, 35);
+    box-shadow: 0px 0px 8px black;
+    color: white;
+    border: 2px solid white;  
+    cursor: pointer;
+}
+.four-block-div{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 3rem;
+    /* border: 2px solid pink; */
+}
+.same-block{
+    cursor: pointer;
+    height: 6rem;
+    width: 15rem;
+    padding: 1rem 2rem;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 1.5rem;
+}
+.same-block:hover{
+    box-shadow: 0 0 15px black;
+}
+.same-block h5{
+   color: rgb(59, 58, 58);
+}
+.next_icon{
+    height: 1.5rem;
+    position: relative;
+    left: 11rem;
+    bottom: 2rem;
+}
+
+.profile-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    position: absolute;
+    /* top: 3rem; */
+    z-index: 100;
+    /* border: 2px solid red; */
+}
+.personal-info, .address-info{
+    width: 45vw;
+    height: 88%;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px black;
+    margin-bottom: 0.5rem;
+}
+.profile-h1{
+    /* border: 2px solid red; */
+    margin: 2.5rem 2rem;
+}
+.profile-label-input{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+    height: 4rem;
+    /* border: 2px solid rgb(17, 171, 19); */
+}
+.Per-Add-LP{
+    height: 5rem;
+}
+.BDE-Per-Add{
+    padding-top: 0.5rem !important;
+}
+.profile-label{
+    width: 8rem;
+    margin-left: 1.5rem;
+    /* border: 2px solid red; */
+}
+.profile-input{
+    padding: 0.8rem 0.5rem;
+    background-color: white;
+    width: 20rem;
+    border: 2px solid rgb(32, 230, 174);
+    border-radius: 0.7rem;
+}
+.edit-block-div{
+    display: flex;
+    width: 20rem;
+    /* border: 2px solid red; */
+}
+.saveDetails{
+    border: 2px solid rgb(32, 230, 174);
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    height: 3rem;
+    padding: 0rem 1.5rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+.saveDetails:active{
+    background-color: rgb(32, 230, 174);
+}
+.userAccountEdit{
+    position: relative;
+    left: 15rem;
+    border: 2px solid rgb(75, 2, 2);
+    color: rgb(75, 2, 2);
+    background-color: white;
+    box-shadow: 0 0  6px rgb(75, 2, 2);
+}
+.userAccountEdit:active{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0  0px rgb(75, 2, 2);
+}
+.profile-greenwave{
+    position: relative;
+    right: 142rem;
+    bottom: 295rem;
+    rotate: 180deg;
+    /* z-index: -1; */
+}
+.errormassDiv{
+    color:red;
+    width: 100%;
+    padding-left: 11rem;
+}
